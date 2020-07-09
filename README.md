@@ -34,5 +34,7 @@ Each image that we are dealing with is an 3-channelled RGB images of varying siz
 
 <h2>Observations:</h2>
 
-Project currently ongoing.
+* There is a high sampling bias in the training data, with only around 1.76% of the data instances belonging to the 'malignant' class, and rest all belonging to the 'benign' class.
+
+Project currently ongoing. Will add more observations and conclusion as I progress.
 
