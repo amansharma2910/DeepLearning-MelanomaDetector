@@ -36,5 +36,9 @@ Each image that we are dealing with is an 3-channelled RGB images of varying siz
 
 * There is a high sampling bias in the training data, with only around 1.76% of the data instances belonging to the 'malignant' class, and rest all belonging to the 'benign' class.
 
+* The sampling bias affects the model's generalization on the inference data to a great extent. To tackle this problem, one can use different data augmentation techniques, or use external data to further train the model with more examples.
+
+* In this dataset, the images can range upto 6000x5000px or even higher in size. Due to this, the dataset is very bad for I/O. Without preprocessing the images and applying transformations (resizing, augmentations etc.) while training, excruciatingly slowed down the training process to as low as 2hrs per epoch. On the other hand, applying all the transformations beforehand and preprocessing the image data beforehand reduced the time per epoch to as low as around 8 mins for the ResNet34 model, thus significantly improving the training speed. This shows the importance of data preprocessing and how it can affect our model's training.
+
 Project currently ongoing. Will add more observations and conclusion as I progress.
 
