@@ -1,6 +1,6 @@
 <h1 align = 'center'> Melanoma (Skin Cancer) Detection using Deep Learning</h1>
 
-In this project, originally a Kaggle image classification competetion, I'll be working on a deep learning pipeline that processes the input images of possible cancerous moles/tumors and predicts the probability of the mole(s) being melanoma (skin cancer). 
+In this project, originally a Kaggle image classification competition, I worked on a deep learning pipeline that processes the input images of possible cancerous moles/tumors and predicts the probability of the mole(s) being melanoma (skin cancer). 
 
 ---
 
